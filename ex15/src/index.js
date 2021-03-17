@@ -8,7 +8,7 @@ function myDoWhile () {
         }
         str++;
     } while (str < 10);
-    console.log(myNumbers);
+    return myNumbers;
 }
 console.log(myDoWhile());
 module.exports = myDoWhile;

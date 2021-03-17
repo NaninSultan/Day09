@@ -7,7 +7,7 @@ function inverseWhile() {
         }
         str--;
     }
-    console.log(fiveNumbers);
+    return fiveNumbers;
 }
 console.log(inverseWhile());
 module.exports = inverseWhile;
