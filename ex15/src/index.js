@@ -1,10 +1,13 @@
 function myDoWhile () {
-    var myNumbers = ""; str = 0;
+    var myNumbers = ""; 
+    var str = 0;
     do {
-        str = str + 1;
-        myNumbers = myNumbers + str + ", ";
-        
-    } while (str < 9);
+        myNumbers += str;
+        if (str < 9) {
+            myNumbers += ", ";
+        }
+        str++;
+    } while (str < 10);
     console.log(myNumbers);
 }
 console.log(myDoWhile());
